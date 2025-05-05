@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo"><a href="index.html">Potomac Pressure Washing</a></div>
+    <nav>
+      <a href="residential.html">Residential</a>
+      <a href="commercial.html">Commercial</a>
+      <a href="what-we-clean.html">What We Clean</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="phone">Call: <a href="tel:9195926347">919-592-6347</a></div>
+  </header>
+
+  <section class="content contact-page">
+    <h1>Contact Us</h1>
+    <p><strong>Email:</strong> <a href="mailto:info@potomacpressurewashing.co">info@potomacpressurewashing.co</a></p>
+    <p><strong>Phone:</strong> <a href="tel:9195926347">919-592-6347</a></p>
+    <p>Or use the form below to request a quote or ask a question.</p>
+
+    <!-- Replace action URL below if you switch to Formspree -->
+    <form action="mailto:info@potomacpressurewashing.co" method="POST" enctype="text/plain" class="contact-form">
+      <label for="name">Your name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Your email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone">Your number</label>
+      <input type="tel" id="phone" name="phone" required />
+
+      <label for="message">Your message</label>
+      <textarea id="message" name="message" rows="5"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Potomac Pressure Washing. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
